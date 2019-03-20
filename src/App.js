@@ -1,5 +1,11 @@
 import React from "react";
 import "./App.css";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import imageSlider from "./components/imageSlider";
+import ProductDetail from "./components/ProductDetail";
+import SubHeader from "./components/SubHeader";
+import TopNav from "./components/TopNav";
 
 function App(props) {
     return (
@@ -9,6 +15,8 @@ function App(props) {
 			<div className="header">
 	
 		
+			<div className="clear"> </div>
+			
 			<div className="clear"> </div>
 			<div className="sub-header">
 				<div className="logo">
@@ -23,18 +31,6 @@ function App(props) {
 					<input type="text" /><input type="submit"  value="search" />
 				</div>
 				<div className="clear"> </div>
-			</div>
-			<div className="clear"> </div>
-			<div className="top-nav">
-				<ul>
-					<li><a href="carlights.html">car lights</a></li>
-					<li><a href="carwheels.html">Car wheels</a></li>
-					<li><a href="carbumpers.html">car bumpers</a></li>
-					<li><a href="caradsystem.html">car audiosystem</a></li>
-					<li><a href="truckbumpers.html">Truck bumpers</a></li>
-					<li><a href="contact.html">Feedback</a></li>
-					<div className="clear"> </div>
-				</ul>
 			</div>
 		
 			</div>
